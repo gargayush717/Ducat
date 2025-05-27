@@ -14,21 +14,54 @@ function UncontrolledExample() {
     <div className='maindiv'>
     <Carousel  indicators={false}>
       <Carousel.Item>
-        <img src={carousel1} className="d-block w-75 mx-auto img" alt="first-slide" />
-        
+    <div className='d-flex'>
+        <div style={{width:"100vh",height:"80vh"}}>
+          <h1  className='text-center' style={{marginTop:"30vh"}}>learn From the future: <br />Explore Our AI Powered <br />Courses</h1>
+        </div>
+        <div>
+        <img src={carousel1} className="d-block float-end w-100 img" alt="first-slide" />
+       </div>
+       </div>
       </Carousel.Item>
       <Carousel.Item>
-         <img src={carousel2} className="d-block mx-auto w-75 img" alt="first-slide"/>
-        
+          <div className='d-flex'>
+        <div style={{width:"100vh",height:"80vh"}}>
+          <h1  className='text-center' style={{marginTop:"30vh"}}>Our Goal is to empower <br />Your career ambitios</h1>
+        </div>
+        <div>
+         <img src={carousel2} className="d-block float-end w-100 img" alt="first-slide"/>
+        </div>
+        </div>
       </Carousel.Item>
       <Carousel.Item>
-         <img src={carousel3} className="d-block mx-auto w-75 img" alt="first-slide"/>
+         <div className='d-flex'>
+        <div style={{width:"100vh",height:"80vh"}}>
+          <h1  className='text-center' style={{marginTop:"30vh"}}>Your Success is our<br />mission, and we are <br />dedicated to helping you <br />reach your goals</h1>
+        </div>
+        <div>
+         <img src={carousel3} className="d-block float-end w-100 img" alt="first-slide"/>
+         </div>
+         </div>
       </Carousel.Item>
          <Carousel.Item>
-         <img src={carousel4} className="d-block mx-auto w-75 img" alt="first-slide"/>
+           <div className='d-flex'>
+        <div style={{width:"100vh",height:"80vh"}}>
+          <h1  className='text-center' style={{marginTop:"30vh"}}>Unloack Your Potential With<br />us, and watch your carrer <br />dreams come to life</h1>
+        </div>
+        <div>
+         <img src={carousel4} className="d-block float-end w-100 img" alt="first-slide"/>
+         </div>
+         </div>
       </Carousel.Item>
          <Carousel.Item>
-         <img src={carousel5} className="d-block mx-auto w-75 img" alt="first-slide"/>
+           <div className='d-flex'>
+        <div style={{width:"100vh",height:"80vh"}}>
+          <h1  className='text-center' style={{marginTop:"30vh"}}>Take the first step towards<br />a successful carrer with <br />our support and expertise</h1>
+        </div>
+        <div>
+         <img src={carousel5} className="d-block Float-end w-100 img" alt="first-slide"/>
+         </div>
+         </div>
       </Carousel.Item>
     </Carousel>
  <div className="searchdiv">
