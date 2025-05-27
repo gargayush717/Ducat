@@ -6,7 +6,8 @@ import {Link} from 'react-router-dom'
 function Navbar() {
   return (
     <>
-    <nav className="navbar navbar-expand-xl">
+    <div className='mainnavbar' >
+    <nav className="navbar navbar-expand-xl ">
   <div className="container-fluid">
     <a className="navbar-brand" href="#"><img className="logo" src={ducatlogo} alt="ducatlogo" /></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +34,7 @@ function Navbar() {
                   </ul>
               </li>
             <li className="dropend">
-              <a className="dropdown-item dropdown-toggle has-submenu" data-bs-toggle="dopdown" href="#">School of AI</a>
+              <a className="dropdown-item dropdown-toggle has-submenu" data-bs-toggle="dropdown" href="#">School of AI</a>
               <ul className="dropdown-menu">
                     <li><a href="#" className="dropdown-item">MEAN STACK + GEN AI</a></li>
                     <li><a href="#" className="dropdown-item">ADVANCED EXCEL + GEN AI</a></li>
@@ -238,6 +239,7 @@ function Navbar() {
     </div>
   </div>
 </nav>
+</div>
     
     </>
   )

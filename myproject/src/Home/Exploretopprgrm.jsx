@@ -1,10 +1,11 @@
 import React from 'react'
+import './Exploretopprgrm.css'
 
 function Exploretopprgrm() {
   return (
    <>
    <div className="card-group">
-  <div className="card">
+  <div className="card maincard">
     <div className='d-flex'>
     <img src="/Mernstack.webp" className="card-img-top" alt="..."/>
     <div className="card-body">

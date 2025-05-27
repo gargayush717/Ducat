@@ -9,7 +9,8 @@ import './Corousel.css';
 function UncontrolledExample() {
   return (
     <>
-    <div className='corousel-container'>
+    <div className='corouselmaindiv'>
+    <div className='corousel-container mt-5'>
     <div className='maindiv'>
     <Carousel  indicators={false}>
       <Carousel.Item>
@@ -71,6 +72,7 @@ function UncontrolledExample() {
   <span className='span'>
     <span>Master at</span> <br /> <span>Diffrent Areas</span>
     </span>
+</div>
 </div>
 </div>
 </div>
