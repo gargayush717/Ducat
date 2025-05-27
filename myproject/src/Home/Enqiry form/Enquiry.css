@@ -22,6 +22,9 @@
     .bn-close{
       display: none;
     }
+    .closebtn{
+      display: none;
+    }
 
     @media screen and (max-width: 1200px) {
       .enquirydiv{
@@ -50,5 +53,9 @@
         gap: 2vh;
         background-color: skyblue;
     }
+    .closebtn{
+       display: block;
+    }
+   
    
   }

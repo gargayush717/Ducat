@@ -14,7 +14,7 @@ setclose(true)
     <>
     {close?null:(
     <div style={{ backgroundColor: 'skyBlue'}} >
-    <div>  
+    <div className='closebtn'>  
         <button type="button" className="btn-close" aria-label="Close" onClick={onclose}></button>
       </div>
     <div className='w-100 enquirydiv d-flex align-items-center pr-5'>
