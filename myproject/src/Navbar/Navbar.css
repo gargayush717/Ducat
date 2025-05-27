@@ -1,0 +1,53 @@
+.navbar{
+    display: flex;
+    background-color: white;
+    padding-left: 8rem;
+    padding-right: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: large;
+}
+.logo{
+    height: 2.8rem;
+   
+}
+.dropdown-menu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+  display: none;
+}
+.dropdown-menu .dropend:hover > .dropdown-menu {
+  display: block;
+}
+.has-submenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.cad-submenu {
+  max-height: 250px; /* adjust height as needed */
+  overflow-y: auto;
+}
+/* Shift the submenu of Network and Security above its parent */
+.up-submenu > .dropdown-menu {
+  top: auto;
+  bottom: 0%;
+  left: 100%;
+  margin-bottom: 0px;
+  display: none;
+}
+
+.up-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+
+@media screen and (max-width: 440px){
+  .navbar{
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+}

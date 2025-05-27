@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+.btn-close{
+   padding-right: 30px;
+   padding-top: 30px;
+   float: right;
+   width: 4px;
+   height: 4px;
+}
+.modal-content{
+   width: 570px;
+   height: 430px;
+   background-image: url('../../public/modal_background.webp');
+   background-size: cover;
+   border-radius: 20px;
+}
+.modal-dialog{
+   margin-top: 50px;
+
+}
+.modal-body{
+   display: flex;
+}
+.moddiv{
+   /* background-color: blue; */
+   width: 250px;
+   /* margin-left: 20px;
+   margin-top: -30px; */
+   display: flex;
+   align-items: center;
+   color: black;
+   margin: auto;
+   
+}
+
+.moddiv2{
+   background-color: lightblue;
+   width: 250px;
+   margin-left: 20px;
+   margin-top: -30px;
+   border-radius: 30px;
+   box-shadow: -10px 10px 10px #16376A;
+}
+.master{
+   background-color: red;
+   border-radius: 10px;
+   color: white;
+   padding: 1px 4px;
+}
+.Future{
+   background-color: red;
+   border-radius: 10px;
+   color: white;
+   margin-left: 55px;
+   padding: 1px 4px;
+   display: inline-block;
+  margin-top: 5px;
+   
+}
+.midtext{
+   margin-left: 15px;
+   padding: 5px 5px;
+}
+.profile{
+   border-radius: 50%;
+   border: 2px solid blue;
+   width: 100px;
+   height: 100px;
+   background-image: url('../../public/popup-avatar.webp');
+   margin: 10px auto;
+   
+}
+.form{
+   background-color: white;
+   display: flex;
+   border-radius: 20px;
+   height: 270px;
+   
+}
+.formitem{
+   border: 0px;
+   border-bottom: 3px solid grey;
+   margin-left: 15px;
+   margin-top: 10px;
+   width: 90%;
+   border-radius: 0px;
+   
+}
+.submit{
+   background-color: #1B4584;
+   border-radius: 10px;
+   width: 90%;
+   height: 15%;
+   margin-top: 10px;
+   margin-left: 10px;
+   border: 0px;
+}
+
+.lightgrey-text{
+   color: #808080;
+   appearance: none;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+@media screen and (max-width: 850px) {
+   
+.moddiv{
+   display: none;
+}
+.modal-content{
+   width: 270px;
+}
+
+}
