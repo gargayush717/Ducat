@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Placement = () => {
   return (
-    <div>Placement</div>
-  )
-}
+    <>
+      <h1 style={{ marginTop: "100px" }}>Placement</h1>
+    </>
+  );
+};
 
-export default Placement
+export default Placement;

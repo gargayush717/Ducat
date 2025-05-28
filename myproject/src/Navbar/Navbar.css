@@ -1,15 +1,14 @@
-.navbar{
-    display: flex;
-    background-color: white;
-    padding-left: 8rem;
-    padding-right: 7rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    font-size: large;
+.navbar {
+  display: flex;
+  background-color: white;
+  padding-left: 8rem;
+  padding-right: 7rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: large;
 }
-.logo{
-    height: 2.8rem;
-   
+.logo {
+  height: 2.8rem;
 }
 .dropdown-menu .dropdown-menu {
   top: 0;
@@ -43,16 +42,14 @@
 .up-submenu:hover > .dropdown-menu {
   display: block;
 }
-.mainnavbar{
+.mainnavbar {
   position: fixed;
   top: 0%;
   z-index: 100;
-  
 }
 
-
-@media screen and (max-width: 440px){
-  .navbar{
+@media screen and (max-width: 440px) {
+  .navbar {
     padding-left: 2rem;
     padding-right: 4rem;
   }

@@ -1,26 +1,25 @@
-.maincard{
-    height: 12vh;
-    border-radius: 0px;
-    width: 280px;
-    
+.maincard {
+  height: 12vh;
+  border-radius: 0px;
+  width: 280px;
 }
-.maincard img{
-    height: 11.9vh;
-    width: 70px;
-    background-color: skyblue;
-    border-radius: 0;
-    padding: 10px;
+.maincard img {
+  height: 11.9vh;
+  width: 70px;
+  background-color: skyblue;
+  border-radius: 0;
+  padding: 10px;
 }
-.exploretopprgrmmaindiv{
-    margin: 0 8vw;
-    margin-top: 6vh;
-    margin-bottom: 50px;
+.exploretopprgrmmaindiv {
+  margin: 0 8vw;
+  margin-top: 6vh;
+  margin-bottom: 50px;
 }
-.subdiv{
-    width: 290px;
+.subdiv {
+  width: 290px;
 }
-.exploretopprgrmmaindiv p{
-    font-weight: bold;
+.exploretopprgrmmaindiv p {
+  font-weight: bold;
 }
 
 .underline-heading {
@@ -29,6 +28,9 @@
   padding-bottom: 8px; /* adjust this to control distance from text */
   margin-bottom: 5vh; /* your original request */
 }
-.card-title{
-    margin-top: -10px;
+.card-title {
+  margin-top: -10px;
+}
+.link {
+  text-decoration: none;
 }
