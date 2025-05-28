@@ -1,5 +1,11 @@
 .img{
     height: 550px;
+    display: block; 
+    float: right; 
+    width: 100%; 
+}
+.text-center{
+    margin-top: 30vh;
 }
 .searchdiv{
     height: 50px;
@@ -44,6 +50,11 @@
 .corouselmaindiv{
    margin-top: 110px;
 }
+.corodiv{
+    display: flex;
+    
+}
+
 
 
 
@@ -55,13 +66,15 @@
     }
     .img{
     height: 45vh;
+    margin-top: -60vh;
+    
 }
 .searchdiv{
     height: 50px;
     display: flex;
     margin-left: 10vw;
     position: absolute;
-    top: 38vh;
+    top:70vh;
     left: 2vw;
     width: 80vw;
 
@@ -69,5 +82,34 @@
     
     
 }
+    .corodiv{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 80vh;
+      
+    } 
+    .textdiv{
+      display: flex;
+      padding: 0 8vw;
+      
+      
+      
+        
+    }
+    .imgdiv{
+       height: auto;
+       width: 100%;
+    
      
+    
+    }
+    .img{
+         width: 100%;
+        height: auto;
+        display: block;
+        margin-top: 0;
+    }
+    .text-center{
+    margin-top: 3vh;
+}
 }

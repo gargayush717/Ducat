@@ -1,19 +1,23 @@
 .maincard{
     height: 12vh;
     border-radius: 0px;
-    width: 250px;
+    width: 280px;
     
 }
 .maincard img{
-    height: 10vh;
-    width: 50px;
+    height: 11.9vh;
+    width: 70px;
+    background-color: skyblue;
+    border-radius: 0;
+    padding: 10px;
 }
 .exploretopprgrmmaindiv{
     margin: 0 8vw;
     margin-top: 6vh;
+    margin-bottom: 50px;
 }
 .subdiv{
-    width: 250px;
+    width: 290px;
 }
 .exploretopprgrmmaindiv p{
     font-weight: bold;
@@ -24,4 +28,7 @@
   border-bottom: 2px solid orange;
   padding-bottom: 8px; /* adjust this to control distance from text */
   margin-bottom: 5vh; /* your original request */
+}
+.card-title{
+    margin-top: -10px;
 }

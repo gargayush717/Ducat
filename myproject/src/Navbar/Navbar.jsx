@@ -6,7 +6,8 @@ import {Link} from 'react-router-dom'
 function Navbar() {
   return (
     <>
-    <div className='mainnavbar' >
+   
+    <div className='mainnavbar w-100' >
     <nav className="navbar navbar-expand-xl ">
   <div className="container-fluid">
     <a className="navbar-brand" href="#"><img className="logo" src={ducatlogo} alt="ducatlogo" /></a>
@@ -240,7 +241,7 @@ function Navbar() {
   </div>
 </nav>
 </div>
-    
+  
     </>
   )
 }
