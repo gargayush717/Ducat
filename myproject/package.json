@@ -5,11 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-   
+    "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "start": "react-scripts start",
-  "build": "react-scripts build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "bootstrap-icons": "^1.13.1",
