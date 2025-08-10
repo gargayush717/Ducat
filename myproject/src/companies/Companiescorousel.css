@@ -1,0 +1,39 @@
+.image-div{
+
+height: 150px;
+width: 195px;
+
+ flex-shrink: 0;
+ border: 1px solid skyblue;
+}
+.corousel{
+    display: flex;
+   
+    
+    margin-left: 3rem;
+    width: 80vw;
+    
+    overflow-x: hidden;
+  
+    overflow: hidden;
+    
+}
+.maincorouseldiv{
+width: 98vw;
+
+display: flex;
+align-items: center;
+
+}
+.leftbtn{
+margin-left: 2rem;
+}
+.rightbtn{
+    margin-left: 2rem;
+}
+
+.image-wrapper {
+  display: flex;
+  gap: 7px;
+  min-width: max-content;
+}

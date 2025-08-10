@@ -4,6 +4,7 @@ import Enquiry from './Enqiry form/Enquiry'
 import Exploretopprgrm from './Exploretopprgrm'
 
 
+
 const Home = () => {
   return (
    <>
@@ -12,6 +13,8 @@ const Home = () => {
    
    <Enquiry/>
    <Exploretopprgrm/>
+   
+  
    
    
    </>

@@ -1,0 +1,17 @@
+.companymaindiv{
+    margin-bottom: 7vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;  
+    width: 100%;
+    height: 60vh;
+    
+}
+.titlehead{
+ color: black;
+ font-weight: bold;
+ border-bottom: 4px solid orange;
+ padding-bottom: 4px;
+ 
+  
+}

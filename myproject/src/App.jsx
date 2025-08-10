@@ -13,6 +13,7 @@ import Modal from "./Modal/Modal";
 import Layout from "./Layout/Layout";
 import Diploma_in_cloud_computing_and_cyber_secuity from "./diploma-cloud-cyber-security/Diploma_in_cloud_computing_and_cyber_secuity";
 import Diploma_in_cloud_computing_cloud_computing_Ai from "./diploma-cloud-ai/Diploma_in_cloud_computing_cloud_computing_Ai";
+import Companies from "./companies/Companies";
 function App() {
   return (
     <>
@@ -40,6 +41,7 @@ function App() {
             />
           </Route>
         </Routes>
+        <Companies/>
       </BrowserRouter>
     </>
   );
